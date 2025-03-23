@@ -1,7 +1,6 @@
 from ollama import Client
 import requests
 from bs4 import BeautifulSoup
-from typing import Dict, Any
 
 client = Client(host='http://localhost:11434')
 
